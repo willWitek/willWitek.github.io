@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(70, 70, 70);
+    /* border: 3px solid rgb(0, 255, 640); */
+    }
+head{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* border: 3px solid rgb(0, 255, 149) */
+    }
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    /* border: 3px solid rgb(255, 0, 234) */
+    }
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    /* border: 3px solid rgb(255, 0, 234) */
+    }
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+}
+img {
+    border: 5px solid rgb(88, 88, 88);
+    width: 50%;
+    height: 50%;
+    }
+img:hover{
+    border: 5px solid rgb(175, 175, 175);
+    width: 80%;
+    height: 80%;
+}
+.containerLead{
+    margin-top: 23%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    /* border: 3px solid rgb(46, 190, 26) */
+}
+.container{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    /* border: 3px solid rgb(46, 190, 26) */
+}
+.child{
+    padding: 10px;
+    margin-right: 10%;
+    margin-left: 10% ;
+    /* border: 3px solid purple;  */
+}
+a:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+a:visited{
+    color: rgb(172, 167, 212);
+    text-decoration: none;
+    }
+
+a:hover{
+    color: rgb(95, 81, 219);
+    text-decoration: none;
+    }
+
+a:active{
+    color: rgb(120, 81, 219);
+    text-decoration: none;
+    font-weight: bold;
+    }
