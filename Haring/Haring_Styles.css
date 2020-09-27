@@ -1,0 +1,104 @@
+body{
+    background-image: url(Slides/Images/HaringBG.jpg);
+     /* border: 3px solid rgb(0, 255, 640); */
+    }
+head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    /* border: 3px solid rgb(0, 255, 149) */
+    }
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 75px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+   /* border: 3px solid rgb(255, 0, 234)*/
+    }
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    text-align: center;
+    /* border: 3px solid rgb(255, 0, 234); */
+    background-color: white;
+    }
+#linkText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100px;
+    background-color: rgb(255, 4, 4);
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100px;
+    background-color: rgb(255, 4, 4);
+    /* border: 3px solid rgb(255, 0, 234) */
+    }
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: justify;
+    background-color: white;
+    font-size: 25px;
+}
+.container{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 5px solid rgb(255, 0, 0)
+}
+.containerWide{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 5px solid rgb(255, 0, 0)
+}
+.child{
+    padding: 10px;
+    margin-right: 10%;
+    margin-left: 10% ;
+    border: 5px solid yellow;
+}
+.center{
+    margin: auto;
+    width: 100px;
+    padding: 10px;
+    }
+img{
+    display: block;
+    margin: auto;
+    border: 5px solid blue;
+    width: 365px;
+    height: 375px;
+    }
+.homeButton{
+    padding: 10px;
+    margin-top: 15%
+    /* border: 3px solid purple;  */
+}
+a:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+a:visited{
+    color: rgb(172, 167, 212);
+    text-decoration: none;
+    }
+
+a:hover{
+    color: rgb(95, 81, 219);
+    text-decoration: none;
+    }
+
+a:active{
+    color: rgb(120, 81, 219);
+    text-decoration: none;
+    font-weight: bold;
+    }
+/*unncessary comment to try to update with github */
