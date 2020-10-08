@@ -73,8 +73,9 @@ h2{
     font-family: Arial, sans-serif;
     opacity: 0.6;
     color: white;
-    font-size: 60px;
+    font-size: min(10vw, 60px);
     text-align: center;
+    margin-bottom: 5px;
     /* border: 3px solid rgb(255, 0, 234); */
     }
 h3{
@@ -90,17 +91,17 @@ p{
     font-family: Arial, sans-serif;
     color: rgb(216, 216, 216);
     text-align: justify;
-    font-size: 25px;
+    font-size: min(2vw, 25px);
     }
 .text{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: min(2vw, 20px);
+    padding-right: min(2vw, 20px);
     display: grid;
     justify-content: space-around;
     align-content: center;
     background-color: rgba(56, 56, 56, 0.45);
     box-shadow: 0px 0px 40px 40px rgba(61, 61, 61, 0.1);
-    width: 50%
+    width: min(55vw, 50%);
 }
 .indexGridContainer{
     display: grid;
