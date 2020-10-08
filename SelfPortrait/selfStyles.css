@@ -139,16 +139,18 @@ p{
 }
 .indexGridContainer{
     display: grid;
-    grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-template-rows: 33vw 34vw 33vw);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     
     grid-template-areas:
     "W1 I1 L1 L2"
     "I2 A1 M1 W2"
     "I3 T1 E1 K1";
 
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    grid-column-gap: 0vw;
+    grid-row-gap: 0vh;
+    margin: 0px 0px;
+    padding: 0px 0px;
     /* border: 3px solid rgb(255, 0, 234); */
 }
 .W1 {
