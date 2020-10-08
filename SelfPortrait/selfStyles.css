@@ -1,55 +1,82 @@
 body.index{
     background-color: darkgrey;
     background-image: url(images/mountainBG.jpg);
-    background-size: 200%;
+    background-size: min(cover, 500%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
      /* border: 3px solid rgb(0, 255, 640); */
     }
 body.wisconsin{
     background-color: darkgrey;
     background-image: url(images/wisconsin.jpg);
-    background-size: 150%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     /* border: 3px solid rgb(0, 255, 640); */
 }
 body.malta{
     background-color: darkgrey;
     background-image: url(images/malta.jpg);
-    background-size: 150%
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     /* border: 3px solid rgb(0, 255, 640); */
     }
 body.lakeMichigan{
     background-color: darkgrey;
     background-image: url(images/lakeMichigan.jpg);
-    background-size: 150%
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     /* border: 3px solid rgb(0, 255, 640); */
     }
 body.austria{
     background-color: darkgrey;
     background-image: url(images/austria.jpg);
-    background-size: 150%
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     /* border: 3px solid rgb(0, 255, 640); */
     }
 body.turkey{
     background-color: darkgrey;
     background-image: url(images/turkey.jpg);
-    background-size: 150%
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     /* border: 3px solid rgb(0, 255, 640); */
     }
 body.italy{
     background-color: darkgrey;
     background-image: url(images/italy.jpg);
-    background-size: 150%
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     /* border: 3px solid rgb(0, 255, 640); */
     }
 body.england{
     background-color: darkgrey;
     background-image: url(images/england.jpg);
-    background-size: 150%
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     /* border: 3px solid rgb(0, 255, 640); */
     }
 body.kennebunkport{
     background-color: darkgrey;
     background-image: url(images/kennebunkport.jpg);
-    background-size: 150%
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     /* border: 3px solid rgb(0, 255, 640); */
     }
 head{
@@ -65,8 +92,6 @@ h1{
     text-align: center;
     padding: 0px;
     margin: 0px;
-    max-width: 50%;
-    min-width: 50%;
     /* border: 3px solid rgb(255, 0, 234) */
     }
 h2{
@@ -78,6 +103,15 @@ h2{
     margin-bottom: 5px;
     /* border: 3px solid rgb(255, 0, 234); */
     }
+h2.special{
+    font-family: Arial, sans-serif;
+    opacity: 0.6;
+    color: white;
+    font-size: min(5vw, 60px);
+    text-align: center;
+    margin-bottom: 5px;
+    /* border: 3px solid rgb(255, 0, 234); */
+}
 h3{
     font-family: Arial, sans-serif;
     color: rgb(87, 87, 87);
