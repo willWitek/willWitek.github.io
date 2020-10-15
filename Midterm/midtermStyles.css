@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(66, 122, 64);
+}
+head{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* border: 3px solid rgb(0, 255, 149) */
+    }
+h1{
+    font-family: Arial, sans-serif;
+    color: rgb(235, 235, 235);
+    font-size: 75px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    max-width: 50%;
+    min-width: 50%;
+    /* border: 3px solid rgb(255, 0, 234) */
+    }
+h2{
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    /* border: 3px solid rgb(255, 0, 234); */
+    }
+h3{
+    font-family: Arial, sans-serif;
+    color: rgb(231, 231, 231);
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    padding: 20px;
+    /* border: 3px solid rgb(255, 0, 234) */
+    }
+p{
+    font-family: Arial, sans-serif;
+    color: rgb(216, 216, 216);
+    text-align: justify;
+    font-size: 25px;
+    }
+.text{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgba(56, 56, 56, 0.45);
+    box-shadow: 0px 0px 40px 40px rgba(61, 61, 61, 0.1);
+    width: 50%
+}
+.indexGridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr);
+    
+    grid-template-areas:
+    "W1 I1 L1 L2"
+    "I2 A1 M1 W2"
+    "I3 T1 E1 K1";
+
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    /* border: 3px solid rgb(255, 0, 234); */
+}
+.W1 {
+    grid-area: W1;
+    /* border: 3px solid rgb(255, 0, 234); */
+}
+.I1 { 
+    grid-area: I1; 
+    /* border: 3px solid rgb(255, 0, 234); */
+}
+.L1 { 
+    grid-area: L1; 
+    /* border: 3px solid rgb(255, 0, 234); */
+}
+.L2 {
+    grid-area: L2;
+    /* border: 3px solid rgb(255, 0, 234); */
+}
+.I2 {
+    grid-area: I2;
+    /* border: 3px solid rgb(255, 0, 234); */
+}
+.A1 {
+    grid-area: A1; 
+    /* border: 3px solid rgb(255, 0, 234); */
+}
+.M1 {
+    grid-area: M1;
+    /* border: 3px solid rgb(255, 0, 234); */
+}
+.W2 {
+    grid-area: W2;
+    /* border: 3px solid rgb(255, 0, 234); */
+}
+.I3 {
+    grid-area: I3;
+    /* border: 3px solid rgb(255, 0, 234); */
+}
+.T1 {
+    grid-area: T1;
+    /* border: 3px solid rgb(255, 0, 234); */
+}
+.E1 {
+    grid-area: E1;
+    /* border: 3px solid rgb(255, 0, 234); */
+}
+.K1 {
+    grid-area: K1;
+    /* border: 3px solid rgb(255, 0, 234); */
+}
+
+.center{
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    }
+img{
+    display: block;
+    margin: auto;
+    /* border: 5px solid blue; */
+    }
+.homeButton{
+    padding: 10px;
+    margin-top: 15%
+    /* border: 3px solid purple;  */
+}
+
+a:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+    }
+a:visited{
+    opacity: 0.4;
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+    }
+
+a:hover{
+    color: rgb(206, 97, 34);
+    text-decoration: none;
+    }
+
+a:active{
+    color: rgb(153, 72, 25);
+    text-decoration: none;
+    font-weight: bold;
+    }
+/*unncessary comment to try to update with github */
