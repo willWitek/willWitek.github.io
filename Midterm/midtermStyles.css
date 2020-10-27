@@ -225,6 +225,7 @@ img{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: auto;
+    grid-row-gap: 5vh;
     justify-items: center;
 
 }
@@ -242,6 +243,7 @@ img{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: auto;
+    grid-row-gap: 5vh;
     justify-items: center;
 
 }
