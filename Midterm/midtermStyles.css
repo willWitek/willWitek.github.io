@@ -63,7 +63,10 @@ p{
     font-size: min(3vw, 25px);
     padding: 2vw;
     }
-.legal p{
+
+
+    /* the legal class changes the behavior of p and h3 in the footer (makes them more responsive) */
+.legal p{  
     text-align: justify;
     font-size: .8vw;
     margin-left: 50px;
@@ -78,6 +81,7 @@ p{
 }
 
 
+/* bodyLeftHalf and bodyRightHalf are used to position a picture next to text in the home and contact pages */
 .bodyLeftHalf{
     float: left;
     display: grid;
@@ -93,6 +97,7 @@ p{
     margin: 1vh;
 }
 
+/* media query to make the body halves slightly more pretty for mobile */
 @media only screen and (max-width: 479px) {
     /* For mobile phones: */
     .bodyRightHalf{
@@ -118,10 +123,8 @@ img{
     padding-top: 1vh;
     /* border: 5px solid blue; */
     }
-#howImage{
-    max-width: 600px;
-}
 
+/* navbar container */
 .navbar{
     position: sticky;
     top: 0;
@@ -135,7 +138,7 @@ img{
 }
 
 @media only screen and (max-width: 628px) {
-    /* For mobile phones: */
+    /* logo disappears when shrinking page*/
     .navbar h1{
         display: none;
     }
@@ -207,6 +210,7 @@ img{
     padding-top: auto;
 }        
 
+/* vidGridGreen and vidGridWhite are containers for the grid of videos under the course pages */
 .vidGridGreen{
     background-color: rgb(78, 128, 78);
     display: grid;
@@ -253,7 +257,6 @@ img{
     height: 30vh;
     width: 19vw;
 }
-
 .vidGridWhite h4{
     color: rgb(78, 128, 78);
 }
@@ -262,10 +265,13 @@ img{
     text-align: center;
 }
 
+/* used to center the text "intro, intermediate, advanced" above the grid of videos */
 .levelText{
     grid-column: 1 / span 4;
 }
 
+
+ /* whatWeDo and HowWeDo are containers used by bodyRightHalf and bodyLeftHalf. I theorize this is highly inefficient. */ 
 .whatWeDo{
     background-color: rgb(78, 128, 78);
     display: grid;
@@ -306,11 +312,12 @@ img{
     margin-right: auto;
 }
 
+/*  aboutUs is nominally used for the about us page, but also for the generic Courses landing page (which is only seen by the impatient and jittery).
+    Because the courses page contains links to the courses, it was necessary to add link stylings <a>. */
 .aboutUs{
     margin-left: 10vw;
     margin-right: 10vw;
 }
-
 .aboutUs a{
     text-align: center;
     padding: 14px 16px;
@@ -326,7 +333,6 @@ img{
 .aboutUs a:hover{
     background-color:rgb(44, 114, 44);
     color: black;
-
 }
 .aboutUs a:active{
     background-color:rgb(33, 87, 33);
@@ -342,10 +348,12 @@ img{
 }
 
 
-.content {
+#content {
     padding-top: 7vh;
 }
 
+
+/* the .fa family is used by the icons on the contact page. Supplied lovingly by https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
 .fa {
     padding: 20px;
     font-size: 50px;
@@ -380,4 +388,3 @@ img{
     background: #125688;
     color: white;
 }
-/*unncessary comment to try to update with github */
