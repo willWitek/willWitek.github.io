@@ -1,0 +1,35 @@
+div {
+ display: flex;
+}
+button {
+    background-color: rgb(255,0,0);
+    position: absolute;
+    padding: 100px;
+    border-radius: 300px;
+    left: 40.5vw; /*default is 40.5vw */
+    top: 20vh;  /*default is 20vh*/
+}
+
+button:hover {
+ background-color: rgb(255,0,0);
+ border: 5px solid rgb(0,0,0);
+}
+button:active {
+    background-color: rgb(200,0,0);
+}
+
+.text{
+    margin: auto;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+.text h1{
+    margin: auto;
+}
+.text h2{
+    margin: auto;
+}
+.text h3{
+    margin: auto;
+}
