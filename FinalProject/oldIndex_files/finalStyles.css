@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(233, 233, 233);
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    margin: auto;
+     /* border: 3px solid rgb(0, 255, 149) */
+    }
+h1{
+    font-family: Garamond;
+    color: rgb(110, 110, 110);
+    font-size: 7vw;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    /* flex-grow: 3; */
+    /* border: 3px solid rgb(255, 0, 234) */
+    }
+h2{
+    font-family: Garamond;
+    color: rgb(80, 80, 80);
+    font-size: 2vw;
+    text-align: center;
+    padding: 0px;
+    padding-top: 10px;
+    margin: 0px;
+    width: 60%;
+
+    /* border: 3px solid rgb(255, 0, 234); */
+    }
+h3{
+    font-family: Montserrat, Arial, sans-serif;
+    color: rgb(231, 231, 231);
+    font-size: max(1.5vw, 30px);
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    font-weight: 900;
+    /* border: 3px solid rgb(255, 0, 234) */
+    }
+h4{
+    font-family: Montserrat, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 5vw;
+    text-align: center;
+    text-shadow: .2vw .2vw #424242;
+    margin: 0px 0px;
+    margin-top: auto;
+    padding-left: 20px;
+    /* flex-grow: 3; */
+    /* border: 3px solid rgb(255, 0, 234) */
+    }
+p{
+    font-family: Montserrat, Arial, sans-serif;
+    color: rgb(240, 240, 240);
+    text-align: justify;
+    font-size: min(3vw, 25px);
+    padding: 2vw;
+    }
+
+.center{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    display: flex;
+    height: auto;
+    width: 70vw;
+    margin: auto;
+    padding: auto;
+    /* border: 5px solid blue; */
+    }
+a:link{
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+    }
+a:visited{
+    opacity: 0.4;
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+    }
+
+a:hover{
+    color: rgb(206, 97, 34);
+    text-decoration: none;
+    }
+
+a:active{
+    color: rgb(153, 72, 25);
+    text-decoration: none;
+    font-weight: bold;
+    }
