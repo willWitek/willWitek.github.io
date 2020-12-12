@@ -1,8 +1,7 @@
 body{
     background-color: #b15f32;
-    /* rgb(172, 104, 67); */
 }
-
+/* fonts */
 h1{
     font-family: Garamond;
     color: rgb(241, 233, 229);
@@ -10,9 +9,7 @@ h1{
     display: flex;
     text-align: center;
     margin: auto;
-    /* flex-grow: 3; */
-    /* border: 3px solid rgb(255, 0, 234) */
-    }
+}
 h2{
     font-family: Garamond;
     color: rgb(241, 233, 229);
@@ -21,9 +18,7 @@ h2{
     padding: 0px;
     padding-top: 10px;
     margin: 0px;
-
-    /* border: 3px solid rgb(255, 0, 234); */
-    }
+}
 h3{
     font-family: Garamond;
     color: rgb(241, 233, 229);
@@ -31,9 +26,7 @@ h3{
     text-align: center;
     padding: 0px;
     margin: 0px;
-
-    /* border: 3px solid rgb(255, 0, 234); */
-    }
+}
 h4{
     font-family: Garamond;
     color: rgb(241, 233, 229);
@@ -41,10 +34,7 @@ h4{
     text-align: center;
     padding: 0px;
     margin: 0px;
-
-    /* border: 3px solid rgb(255, 0, 234); */
-    }
-
+}
 p{
     font-family: Garamond;
     color: rgb(241, 233, 229);
@@ -53,6 +43,7 @@ p{
     padding: 2vw;
     }
 
+/* classes */
 .center{
     display: flex;
     margin: auto;
@@ -63,6 +54,9 @@ p{
     box-shadow:  0px 0px 50px 25px rgb(151, 97, 35);
 }
 .fullHeight{
+    display: flex;
+    margin: auto;
+    padding: auto;
     height: auto;
     width: 30vw;
 }
@@ -75,26 +69,21 @@ p{
     display: flex;
     flex-direction: column;
 }
-
-#container{
+.imgContainer{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
 }
-
-#rightThird {
-    opacity: 0;
+.displayImg{
+    padding: auto;
+    margin: auto;
+    height: auto;
+    width: 9.5vw;
+    display: flex;
+    border: solid white 2px;
 }
-
-#back {
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    margin: 4px 2px;
-    opacity: 100%;
-    background-color: rgb(65,68,87);
-}
-
 /* clickable dot infrastructure graciously provided by https://stackoverflow.com/questions/43611009/clickable-dots-on-an-image-with-javascript */
 .dot {
     position: absolute;
@@ -106,62 +95,56 @@ p{
     font-size: 0px;
     transition: .2s;
 }
+    .dot:hover {
+        background:rgba(87, 87, 87, 0.726);
+        font-size:12px;
+        z-index:1;
+    }
 
-
-.dot:hover {
-background:rgba(87, 87, 87, 0.726);
-font-size:12px;
-z-index:1;
+/* ids */
+#container{
+    display: flex;
+    flex-direction: row;
+}
+#rightThird {
+    opacity: 0;
+}
+#back {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    opacity: 100%;
+    background-color: rgb(65,68,87);
 }
 
-
-img{
-    display: flex;
-    height: auto;
-    width: 70vw;
-    margin: auto;
-    padding: auto;
-    /* border: 5px solid blue; */
-    }
+/* link settings are only used on wireframe page */
 a:link{
     color: inherit;
     background-color: transparent;
     text-decoration: none;
-    }
+}
 a:visited{
     opacity: 0.4;
     color: rgb(185, 185, 185);
     text-decoration: none;
-    }
+}
 
 a:hover{
     color: rgb(206, 97, 34);
     text-decoration: none;
-    }
+}
 
 a:active{
     color: rgb(153, 72, 25);
     text-decoration: none;
     font-weight: bold;
-    }
+}
 
- /*Media Queries Below*/
+ /*Media Query for mobile and small screens*/
  @media only screen and (max-width: 850px) {
-    #container{
-        display: flex;
-        flex-direction: column;
-    }
-    .oneThird{
-        width: 80%;
-        height: auto;
-    }
-    .fullHeight{
-        height: auto;
-        width: 85%;
-    }
-    .dot{
-        padding: 2.8vw;
-    }
+    /* fonts */
     h2{
         font-size: 10vw;
     }
@@ -175,4 +158,32 @@ a:active{
         margin-bottom: 5px;
         font-size: 3vw;
     }
+    
+    /* classes */
+    .oneThird{
+        width: 80%;
+        height: auto;
+    }
+    .fullHeight{
+        height: auto;
+        width: 85%;
+    }
+    .dot{
+        padding: 2.8vw;
+    }
+    .displayImg{
+        padding: auto;
+        margin: auto;
+        height: auto;
+        width: 20vw;
+        display: flex;
+    }
+
+    /* ids */
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
  }
