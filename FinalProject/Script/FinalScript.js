@@ -7,7 +7,6 @@ document.getElementById("dartDot").addEventListener("click", dartClicked);
 document.getElementById("pocketDot").addEventListener("click", pocketClicked);
 document.getElementById("cuffDot").addEventListener("click", cuffClicked);
 
-
 let allDots = document.getElementsByClassName("dot"); //collection of all the dots
 let mainImg = document.getElementById("mainImg"); //the suit image
 let rightThird = document.getElementById("rightThird") //rightThird div (for changing text)
@@ -28,7 +27,15 @@ let defaultContent = '<div class="center"><h3>Click a feature to explore</h3></d
 function shoulderClicked(){
     console.log("shoulder was clicked"); //debugging feature
     rightThird.innerHTML = shoulderContent; //sets the rightThird content to the shoulder content
+    let displayImgs = document.getElementsByClassName("displayImg");
 
+    anime({
+        targets: displayImgs,
+        opacity: 1,
+        duration: 2000,
+        delay: anime.stagger(300),
+        autoplay: true,
+    })
     textFadeIn.play();  //plays animation to fade in rightThird content
     fadeDots.play();    //plays animation to fade out the dots
     anime({             //main animation to zoom in on the shoulder
@@ -44,7 +51,14 @@ function shoulderClicked(){
 function tieClicked(){
     console.log("Tie was clicked");
     rightThird.innerHTML = tieContent;
+    let displayImgs = document.getElementsByClassName("displayImg");
 
+    anime({
+        targets: displayImgs,
+        opacity: 1,
+        delay: anime.stagger(300),
+        autoplay: true,
+    })
     textFadeIn.play();
     fadeDots.play();
     anime({
@@ -60,7 +74,14 @@ function tieClicked(){
 function lapelClicked(){
     console.log("lapel was clicked");
     rightThird.innerHTML = lapelContent;
-    
+    let displayImgs = document.getElementsByClassName("displayImg");
+
+    anime({
+        targets: displayImgs,
+        opacity: 1,
+        delay: anime.stagger(300),
+        autoplay: true,
+    })
     textFadeIn.play();
     fadeDots.play();
     anime({
@@ -76,7 +97,14 @@ function lapelClicked(){
 function buttonClicked(){
     console.log("button was clicked");
     rightThird.innerHTML = buttonContent;
+    let displayImgs = document.getElementsByClassName("displayImg");
 
+    anime({
+        targets: displayImgs,
+        opacity: 1,
+        delay: anime.stagger(300),
+        autoplay: true,
+    })
     textFadeIn.play();
     fadeDots.play();
     anime({
@@ -92,7 +120,14 @@ function buttonClicked(){
 function dartClicked(){
     console.log("Dart was clicked");
     rightThird.innerHTML = dartContent;
+    let displayImgs = document.getElementsByClassName("displayImg");
 
+    anime({
+        targets: displayImgs,
+        opacity: 1,
+        delay: anime.stagger(300),
+        autoplay: true,
+    })
     textFadeIn.play();
     fadeDots.play();
     anime({
@@ -108,7 +143,14 @@ function dartClicked(){
 function pocketClicked(){
     console.log("Pocket was clicked");
     rightThird.innerHTML = pocketContent;
+    let displayImgs = document.getElementsByClassName("displayImg");
 
+    anime({
+        targets: displayImgs,
+        opacity: 1,
+        delay: anime.stagger(300),
+        autoplay: true,
+    })
     textFadeIn.play();
     fadeDots.play();
     anime({
@@ -124,7 +166,14 @@ function pocketClicked(){
 function cuffClicked(){
     console.log("cuff was clicked");
     rightThird.innerHTML = cuffContent;
+    let displayImgs = document.getElementsByClassName("displayImg");
 
+    anime({
+        targets: displayImgs,
+        opacity: 1,
+        delay: anime.stagger(300),
+        autoplay: true,
+    })
     textFadeIn.play();
     fadeDots.play();
     anime({

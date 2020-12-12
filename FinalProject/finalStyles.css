@@ -83,6 +83,7 @@ p{
     width: 9.5vw;
     display: flex;
     border: solid white 2px;
+    opacity: 0;
 }
 /* clickable dot infrastructure graciously provided by https://stackoverflow.com/questions/43611009/clickable-dots-on-an-image-with-javascript */
 .dot {
